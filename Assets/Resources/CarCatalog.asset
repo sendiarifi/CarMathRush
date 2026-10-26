@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1945709ecc5e79240bdcd0203adc0d20, type: 3}
+  m_Name: CarCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::CarCatalog
+  cars:
+  - displayName: Sedan
+    model: {fileID: 919132149155446097, guid: 641a1d3ce054dd74790c7f125f962343, type: 3}
+    price: 0
+    rarity: 0
+  - displayName: Taxi
+    model: {fileID: 919132149155446097, guid: 339e6155e75b0ce48a810ef2221f8c69, type: 3}
+    price: 10
+    rarity: 0
+  - displayName: Polisi
+    model: {fileID: 919132149155446097, guid: df71653f088c3d948942ba55949544e4, type: 3}
+    price: 20
+    rarity: 1
+  - displayName: Sedan Sport
+    model: {fileID: 919132149155446097, guid: 20b8c2c297b2b9040a0d6b6f1e65df45, type: 3}
+    price: 35
+    rarity: 1
+  - displayName: Balap
+    model: {fileID: 919132149155446097, guid: adecca06ce41f9245b2ec703f993bebc, type: 3}
+    price: 50
+    rarity: 2
+  - displayName: Balap Futuristik
+    model: {fileID: 919132149155446097, guid: bfde8583eb3f3e148b73af79ab819389, type: 3}
+    price: 80
+    rarity: 3
+  - displayName: Van
+    model: {fileID: 919132149155446097, guid: 96910b4720a56ce40b2db071f879f34e, type: 3}
+    price: 15
+    rarity: 0
+  - displayName: Mobil Boks
+    model: {fileID: 919132149155446097, guid: e48322ea4f85869458a069a140f03d74, type: 3}
+    price: 25
+    rarity: 0
+  - displayName: Hatchback Sport
+    model: {fileID: 919132149155446097, guid: 15a995e3d7527a44aa0370d6f8504ae3, type: 3}
+    price: 40
+    rarity: 1
+  - displayName: SUV
+    model: {fileID: 919132149155446097, guid: ab1eca8b4b4e10144bef9463df09ad94, type: 3}
+    price: 45
+    rarity: 1
+  - displayName: Truk
+    model: {fileID: 919132149155446097, guid: 6a91baf537a063d41b868522f3d11cd4, type: 3}
+    price: 55
+    rarity: 1
+  - displayName: Ambulans
+    model: {fileID: 919132149155446097, guid: 20a4cbaf1fee5b8458081a4ad15bc2fb, type: 3}
+    price: 60
+    rarity: 2
+  - displayName: Truk Sampah
+    model: {fileID: 919132149155446097, guid: 8bbff0de2455f5e4e80fdcc55c06038d, type: 3}
+    price: 65
+    rarity: 2
+  - displayName: SUV Mewah
+    model: {fileID: 919132149155446097, guid: 733e984b0dc923c45bd1021aa20ca68f, type: 3}
+    price: 75
+    rarity: 2
+  - displayName: Pikap Boks
+    model: {fileID: 919132149155446097, guid: ee2c1419f06390748ac8feeac531cb00, type: 3}
+    price: 30
+    rarity: 0
+  - displayName: Truk Bak
+    model: {fileID: 919132149155446097, guid: c3a1ff84b46db224c98ac71875e8bc3e, type: 3}
+    price: 50
+    rarity: 1
+  - displayName: Traktor
+    model: {fileID: 919132149155446097, guid: a59d42e6f569d824eb2f7dbc0ae91980, type: 3}
+    price: 90
+    rarity: 3
+  - displayName: Traktor Polisi
+    model: {fileID: 919132149155446097, guid: aa4c3b68a858c374d895c0f9f638c11f, type: 3}
+    price: 110
+    rarity: 3
+  - displayName: Traktor Sekop
+    model: {fileID: 919132149155446097, guid: 5df25a08a40a488449a35b2a94a6b896, type: 3}
+    price: 120
+    rarity: 3
+  - displayName: Pemadam Kebakaran
+    model: {fileID: 919132149155446097, guid: 3ce26c8caac10ea48b35e4534f17fecd, type: 3}
+    price: 150
+    rarity: 3
+  - displayName: Box
+    model: {fileID: 919132149155446097, guid: 476a30301f6a3f44fa1045ae3068ebb2, type: 3}
+    price: 60
+    rarity: 1
+  - displayName: Kart Oobi
+    model: {fileID: 919132149155446097, guid: e00d14c07c41dec46b33d3a93e43bcf8, type: 3}
+    price: 60
+    rarity: 1
+  - displayName: Kart Oodi
+    model: {fileID: 919132149155446097, guid: 947b0ec1f0039224ba7fc437cf504f8f, type: 3}
+    price: 60
+    rarity: 1
+  - displayName: Kart Ooli
+    model: {fileID: 919132149155446097, guid: 56382c467e1d744459a5fa2c3d3491b5, type: 3}
+    price: 60
+    rarity: 1
+  - displayName: Kart Oopi
+    model: {fileID: 919132149155446097, guid: 4d8340ee4e894654faf198b45aefc5af, type: 3}
+    price: 60
+    rarity: 1
+  - displayName: Kart Oozi
+    model: {fileID: 919132149155446097, guid: eae021aa7360deb4995f5166ecf9bdf4, type: 3}
+    price: 60
+    rarity: 1
